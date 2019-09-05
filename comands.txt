@@ -1,0 +1,20 @@
+git init
+git add .
+git commit -m "asaf"
+git  remote add origin
+git push -u origin master
+git checkout -b develop
+git add .
+git commit -m "asaf"
+git push
+git clone
+git checkout develop
+git checkout -b lastvetka
+git add .
+git commit -m "asaf"
+git push
+git checkout master
+git merge develop
+git merge lastvetka
+РЕШЕНИЕ КОНФЛИКТА)))
+
